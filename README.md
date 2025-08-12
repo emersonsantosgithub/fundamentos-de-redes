@@ -43,3 +43,23 @@ Aqui vou documentar conceitos, comandos, exercícios e simulações, desde o bá
 - [HTTP e HTTPS](protocolos/http-https.md)
 - [FTP](protocolos/ftp.md)
 - [SMTP](protocolos/smtp.md)
+- [DHCP](protocolos/dhcp.md)
+- [ICMP](protocolos/icmp.md)
+- [ARP](protocolos/arp.md)
+
+### 6. Simulações
+- [Teste de ping](praticas/teste-ping.txt)
+- [Traceroute Google](praticas/traceroute-google.txt)
+- [Simulação Packet Tracer](praticas/packet-tracer/rede-basica.pkt)
+
+---
+
+## 🛠 Tecnologias e Ferramentas
+- **Packet Tracer** / **GNS3** para simulações.
+- **Draw.io** para diagramas.
+- **Git** e **GitHub** para versionamento e portfólio.
+
+---
+
+## 📌 Observação
+Este projeto está em constante atualização, acompanhando meu progresso de estudos.
