@@ -17,7 +17,7 @@ Aqui vou documentar conceitos, comandos, exercícios e simulações, desde o bá
 
 ### 1. Conceitos Básicos
 - [O que é uma rede de computadores](conceitos/oque-e-rede.md)
-- [O que é IP](onceitos/oque-e-ip.md)
+- [O que é IP](conceitos/oque-e-ip.md)
 - [Máscara de rede](conceitos/mascara-de-rede.md)
 - [Gateway e DNS](conceitos/gateway-dns.md)
 - [Tipos de IP (público e privado)](conceitos/tipos-de-ip.md)
