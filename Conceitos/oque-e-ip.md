@@ -4,6 +4,8 @@ IP (Internet Protocol) é um conjunto de regras que permite a comunicação entr
 Um endereço IP é um número único atribuído a cada dispositivo para identificá-lo na rede, como um “endereço digital”.  
 
 Ele é usado para enviar e receber dados entre computadores, celulares, servidores e outros dispositivos conectados.
+
+
 --
 
 # Componentes do Endereço IP
