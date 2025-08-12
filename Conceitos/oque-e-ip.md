@@ -6,8 +6,6 @@ Um endereço IP é um número único atribuído a cada dispositivo para identifi
 Ele é usado para enviar e receber dados entre computadores, celulares, servidores e outros dispositivos conectados.
 
 
---
-
 # Componentes do Endereço IP
 
 Um endereço IP é dividido em duas partes principais:
