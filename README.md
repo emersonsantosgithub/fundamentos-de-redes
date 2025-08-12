@@ -17,11 +17,11 @@ Aqui vou documentar conceitos, comandos, exercícios e simulações, desde o bá
 
 ### 1. Conceitos Básicos
 - [O que é uma rede de computadores](conceitos/oque-e-rede.md)
-- [O que é IP](conceitos/oque-e-ip.md)
-- [Máscara de rede](conceitos/mascara-de-rede.md)
-- [Gateway e DNS](conceitos/gateway-dns.md)
-- [Tipos de IP (público e privado)](conceitos/tipos-de-ip.md)
-- [Comunicação unicast, broadcast e multicast](conceitos/comunicacao-unicast-broadcast-multicast.md)
+- [O que é IP](Cnceitos/oque-e-ip.md)
+- [Máscara de rede](Conceitos/mascara-de-rede.md)
+- [Gateway e DNS](Conceitos/gateway-dns.md)
+- [Tipos de IP (público e privado)](Conceitos/tipos-de-ip.md)
+- [Comunicação unicast, broadcast e multicast](Conceitos/comunicacao-unicast-broadcast-multicast.md)
 
 ### 2. Comandos Úteis
 - **Windows**: [ipconfig](comandos/windows/ipconfig.md), [ping](comandos/windows/ping.md), [tracert](comandos/windows/tracert.md), [netstat](comandos/windows/netstat.md)
