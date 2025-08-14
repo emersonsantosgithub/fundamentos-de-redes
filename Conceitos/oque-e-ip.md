@@ -23,5 +23,19 @@ Você pode imaginar o IP como uma **caixa postal**: ele identifica o seu disposi
 
 ---
 
+## 📡 Como o IP funciona?
+
+O **IP** funciona enviando as informações divididas em **pacotes** menores.  
+Cada pacote contém um **cabeçalho** com informações importantes, como:
+
+- Endereço IP do **remetente** (origem)
+- Endereço IP do **destinatário** (destino)
+- Número de sequência do pacote
+- Outras informações de controle
+
+Esses pacotes viajam pela rede passando por **vários roteadores** ao longo do caminho, até chegar ao destino final.  
+Quando todos os pacotes chegam, eles são **reagrupados na ordem correta** para reconstruir a mensagem ou arquivo original.
+
+
 💡 **Resumo rápido:**  
 O IP é como o “endereço” do seu dispositivo no mundo digital. Sem ele, a comunicação entre computadores, celulares e outros equipamentos conectados não seria possível.
