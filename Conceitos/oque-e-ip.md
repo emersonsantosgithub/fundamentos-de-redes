@@ -1,41 +1,72 @@
-# 📡 IP – Internet Protocol
+# 📡 Capítulo 1 – IP (Internet Protocol)
 
-O **IP (Internet Protocol)** faz parte dos **protocolos de rede**, que são conjuntos de regras e normas que permitem a comunicação entre dispositivos em uma rede ou na internet.
+O **IP (Internet Protocol)** é um dos protocolos de rede mais importantes, responsável por **identificar dispositivos** e garantir que os pacotes de dados cheguem ao **destino correto**.
 
-O IP é responsável pela **identificação** e **endereçamento** dos dispositivos na rede, garantindo que as informações sejam enviadas e recebidas corretamente.  
-Dispositivos como **celulares**, **computadores** e até equipamentos de **Internet das Coisas (IoT)** utilizam endereços IP para se comunicar.
-
-Você pode imaginar o IP como uma **caixa postal**: ele identifica o seu dispositivo na rede e garante que as informações cheguem ao destino correto.
+Ele funciona como um **endereço digital** para computadores, celulares, servidores e dispositivos de IoT.  
 
 ---
 
-## 📄 IPv4 e IPv6
+## 🌐 IPv4 e IPv6
 
 - **IPv4 (Internet Protocol versão 4)**  
-  É a versão mais antiga e ainda a mais utilizada.  
-  Utiliza **32 bits**, o que permite cerca de **4,3 bilhões de endereços IP**.  
-  Com o crescimento do número de dispositivos conectados, essa quantidade começou a se tornar insuficiente.
+  - Usa **32 bits**, permitindo cerca de 4,3 bilhões de endereços.  
+  - É a versão mais utilizada, mas com o aumento de dispositivos, há escassez de IPs.
 
 - **IPv6 (Internet Protocol versão 6)**  
-  Foi criado para resolver a escassez de endereços.  
-  Utiliza **128 bits**, oferecendo aproximadamente **340 undecilhões** de endereços (uma quantidade praticamente infinita).  
-  Além disso, foi projetado para ser **mais seguro**, **eficiente** e oferecer recursos mais avançados que o IPv4.
+  - Usa **128 bits**, oferecendo aproximadamente 340 undecilhões de endereços.  
+  - Mais seguro, eficiente e preparado para o futuro da internet.
 
 ---
 
-## 📡 Como o IP funciona?
+## 🛠 Estrutura de um endereço IP
 
-O **IP** funciona enviando as informações divididas em **pacotes** menores.  
-Cada pacote contém um **cabeçalho** com informações importantes, como:
+Um IP é dividido em duas partes:
 
-- Endereço IP do **remetente** (origem)
-- Endereço IP do **destinatário** (destino)
-- Número de sequência do pacote
-- Outras informações de controle
+1. **Parte da rede:** identifica a rede à qual o dispositivo pertence.  
+2. **Parte do host:** identifica o dispositivo dentro da rede.
 
-Esses pacotes viajam pela rede passando por **vários roteadores** ao longo do caminho, até chegar ao destino final.  
-Quando todos os pacotes chegam, eles são **reagrupados na ordem correta** para reconstruir a mensagem ou arquivo original.
+Exemplo IPv4:
+
+- IP: `192.168.1.10`  
+- Máscara: `255.255.255.0`  
+- Em binário:  
+
+IP: 11000000.10101000.00000001.00001010
+Máscara:11111111.11111111.11111111.00000000
+
+Neste caso:  
+- **24 bits** para a rede  
+- **8 bits** para os hosts
+
+> 💡 Dica: visualize a máscara como uma régua que separa **rede** e **host**.
+
+---
+
+## 📦 Como o IP funciona
+
+O IP transmite dados **divididos em pacotes**. Cada pacote contém:  
+
+- Endereço IP do **remetente**  
+- Endereço IP do **destinatário**  
+- Número de sequência e informações de controle
+
+Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupados na ordem correta**.
+
+---
+
+## 🖥️ Exemplos práticos
+
+### No Windows
+
+Teste realizado no Cisco Packet Tracer, simulando o prompt de comando.
+
+![Exemplo do ipconfig](imagens-github/ipconfig.png)
+
+> **Observação:** A imagem mostra o IP atribuído ao dispositivo, a máscara de rede e o gateway padrão.
 
 
-💡 **Resumo rápido:**  
-O IP é como o “endereço” do seu dispositivo no mundo digital. Sem ele, a comunicação entre computadores, celulares e outros equipamentos conectados não seria possível.
+
+```powershell
+ipconfig
+ping google.com
+tracert google.com
