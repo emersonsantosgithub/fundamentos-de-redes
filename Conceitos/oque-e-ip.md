@@ -56,22 +56,22 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 
 ## 🖥️ Exemplos práticos
 
-> **Como verificar o IP do seu computador pelo Prompt de Comando**  
+1️⃣ **Como verificar o IP do seu computador pelo Prompt de Comando**  
 
 **💻 Simulação realizada no Cisco Packet Tracer**  
 
-📌 **Observação:** O resultado do comando exibe o **endereço IP**, a **máscara de rede**  configurados no dispositivo.
+>📌 **Observação:** O resultado do comando exibe o **endereço IP**, a **máscara de rede**  configurados no dispositivo.
 
 
 ![Exemplo do ipconfig](ipconfig.png)
 
 
- **Como fazer um teste de ping (teste de Conexão)**  
+2️⃣ **Como fazer um teste de ping (teste de Conexão)**  
 
 
 **💻 Simulação realizada no Cisco Packet Tracer**  
 
-> 2️⃣ **Testando:** comunicação entre dispositivos na mesma rede conectado Hub (ping)
+> **Testando:** comunicação entre dispositivos na mesma rede conectado Hub (ping)
 
 ![Exemplo do ping](ping.png)
 
