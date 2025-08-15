@@ -65,8 +65,13 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 
 ![Exemplo do ipconfig](ipconfig.png)
 
-> 2️⃣ **Testando:** comunicação entre dispositivos na mesma rede conectado Hub (ping)
 
+> **Como fazer um teste de ping (teste de Conexão)**  
+
+
+**💻 Simulação realizada no Cisco Packet Tracer**  
+
+> 2️⃣ **Testando:** comunicação entre dispositivos na mesma rede conectado Hub (ping)
 
 ![Exemplo do ping](ping.png)
 
