@@ -66,7 +66,7 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 ![Exemplo do ipconfig](ipconfig.png)
 
 
-> **Como fazer um teste de ping (teste de Conexão)**  
+ **Como fazer um teste de ping (teste de Conexão)**  
 
 
 **💻 Simulação realizada no Cisco Packet Tracer**  
