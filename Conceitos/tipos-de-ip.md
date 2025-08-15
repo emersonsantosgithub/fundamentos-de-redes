@@ -1,16 +1,18 @@
 # Tipos de Endereço IP
 
+---
+
 ## IPv4  
 É o formato mais comum de endereço IP, composto por 4 grupos de números separados por pontos, como:  
 `192.168.1.1`  
 Cada grupo pode variar de 0 a 255.  
 
 ## IPv6  
-É o novo padrão criado para substituir o IPv4, que está acabando.  
-Usa um formato hexadecimal com 8 grupos separados por dois pontos, como:  
+  
+É o formato hexadecimal com 8 grupos separados por dois pontos, como:  
 `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
 
---
+---
 
 # Classes de Endereço IPv4
 
