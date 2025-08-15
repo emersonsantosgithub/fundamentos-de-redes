@@ -54,28 +54,24 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 
 ---
 
-## 🖥️ Simulação no Cisco Packet Tracer
-
 ## 🖥️ Exemplos práticos
 
+> **Como verificar o IP do seu computador pelo Prompt de Comando**  
 
->  📌  **Observação:** A imagem mostra o IP atribuído ao dispositivo, a máscara de rede e o gateway padrão.
+**💻 Simulação realizada no Cisco Packet Tracer**  
+
+📌 **Observação:** O resultado do comando exibe o **endereço IP**, a **máscara de rede**  configurados no dispositivo.
+
 
 ![Exemplo do ipconfig](ipconfig.png)
 
-> 2️⃣ **Testando:** comunicação entre dispositivos na mesma rede (ping)
+> 2️⃣ **Testando:** comunicação entre dispositivos na mesma rede conectado Hub (ping)
 
 
 ![Exemplo do ping](ping.png)
 
-📌 Análise:
+📌 **Análise:**
 
-0% de perda de pacotes → comunicação bem-sucedida.
-
-Tempo médio de 5ms, típico em rede local simulada.
-
-Como estou usando Hub, o tráfego é enviado para todos os dispositivos, mas só o destino responde.
-
-
-ping google.com
-tracert google.com
+- **0% de perda de pacotes** → comunicação bem-sucedida.  
+- **Tempo médio de 5ms**, típico em rede local simulada.  
+- Como estou usando **Hub**, o tráfego é enviado para **todos os dispositivos**, mas **somente o destino responde**.
