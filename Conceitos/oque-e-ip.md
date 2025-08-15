@@ -60,7 +60,7 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 
 Teste realizado no Cisco Packet Tracer, simulando o prompt de comando.
 
-![Exemplo do ipconfig](Conceitos/ipconfig.png)
+![Exemplo do ipconfig](ipconfig.png)
 
 > **Observação:** A imagem mostra o IP atribuído ao dispositivo, a máscara de rede e o gateway padrão.
 
