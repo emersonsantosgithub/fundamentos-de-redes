@@ -6,7 +6,7 @@ Ele funciona como um **endereço digital** para computadores, celulares, servido
 
 ---
 
-## 🌐 IPv4 e IPv6
+## 🌐 Tipo de IP: IPv4 e IPv6 
 
 - **IPv4 (Internet Protocol versão 4)**  
   - Usa **32 bits**, permitindo cerca de 4,3 bilhões de endereços.  
