@@ -74,7 +74,7 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 
 Tempo médio de 5ms, típico em rede local simulada.
 
-Como está usando Hub, o tráfego é enviado para todos os dispositivos, mas só o destino responde.
+Como estou usando Hub, o tráfego é enviado para todos os dispositivos, mas só o destino responde.
 
 
 ping google.com
