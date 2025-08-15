@@ -1,4 +1,4 @@
-# 📡 Capítulo 1 – IP (Internet Protocol)
+# 📡 Capítulo 2 – IP (Internet Protocol)
 
 O **IP (Internet Protocol)** é um dos protocolos de rede mais importantes, responsável por **identificar dispositivos** e garantir que os pacotes de dados cheguem ao **destino correto**.
 
