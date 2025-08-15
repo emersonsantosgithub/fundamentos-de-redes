@@ -54,19 +54,28 @@ Esses pacotes passam por **roteadores** até chegar ao destino, sendo **reagrupa
 
 ---
 
+## 🖥️ Simulação no Cisco Packet Tracer
+
 ## 🖥️ Exemplos práticos
 
-### No Windows
 
-Teste realizado no Cisco Packet Tracer, simulando o prompt de comando.
+>  📌  **Observação:** A imagem mostra o IP atribuído ao dispositivo, a máscara de rede e o gateway padrão.
 
 ![Exemplo do ipconfig](ipconfig.png)
 
-> **Observação:** A imagem mostra o IP atribuído ao dispositivo, a máscara de rede e o gateway padrão.
+> 2️⃣ **Testando:** comunicação entre dispositivos na mesma rede (ping)
 
 
+![Exemplo do ping](ping.png)
 
-```powershell
-ipconfig
+📌 Análise:
+
+0% de perda de pacotes → comunicação bem-sucedida.
+
+Tempo médio de 5ms, típico em rede local simulada.
+
+Como está usando Hub, o tráfego é enviado para todos os dispositivos, mas só o destino responde.
+
+
 ping google.com
 tracert google.com
